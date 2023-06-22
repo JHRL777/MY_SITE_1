@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-inline: 50px;
+    
+    background:transparent;
+}
+
+.nav H1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all .55s ease;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid rgb(97, 243, 97);
+}
+
+
+
+.Contenedor_1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5%;
+}
+
+.Person{
+     margin: auto;
+     border: 2px solid rgba(143, 240, 16, 0.842);
+     border-radius:5px;
+     box-shadow: 0px 0px 10px 2px rgb(97, 243, 97);
+     width: 30%;
+     height: 80%;
+     display: grid;
+     align-items: center;
+     padding: 10px;
+}
+
+.Person h1{
+    margin: auto;
+    font-size: 70px;
+    font-weight: 700;
+}
+.png{
+    margin: auto;
+}
+
+.Contenedor_2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+}
+
+.caja {
+    margin: auto;
+    width: 40%;
+    height: 330px;
+    border: 2px solid rgba(143, 240, 16, 0.842);
+    box-shadow: 0px 0px 5px 2px rgb(97, 243, 97);
+    border-radius:5px;
+    padding: 5px;
+    transition: all .55s ease;
+    
+}
+
+.caja:hover {
+    transform: translateY(-3%);
+
+}
+
+.caja h2{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caja p {
+    font-size: 20px;
+}
+
