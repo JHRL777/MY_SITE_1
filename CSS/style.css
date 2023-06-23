@@ -78,7 +78,7 @@ header {
    
 }
 
-@media (max-width: 1235px){
+@media (max-width: 1024px){
  .Contenedor_1{
     grid-template-columns: repeat(1,1fr);
     
