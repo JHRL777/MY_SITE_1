@@ -70,6 +70,7 @@ header {
 
 .picture{
     max-width:100%;
+    object-fit: cover;
     
  }
 
@@ -116,14 +117,15 @@ header {
 }
 
 
-
+/**************************************/
 
 
 .Contenedor_2{
     display: grid;
-   
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) ;
     
+   
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 200px)) ;
+    justify-content: center;
     align-items: center;
     gap: 27px;
     
@@ -131,7 +133,6 @@ header {
 
 .caja {
     margin: auto;
-    
     height: 330px;
     border: 2px solid rgba(143, 240, 16, 0.842);
     box-shadow: 0px 0px 5px 2px rgb(97, 243, 97);
