@@ -122,24 +122,29 @@ header {
 
 .Contenedor_2{
     display: grid;
-    
-   
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 200px)) ;
+    grid-template: repeat(2, 300px) / repeat(3, 300px) ;
     justify-content: center;
     align-items: center;
-    gap: 27px;
+    gap: 20px;
+    box-sizing: border-box;
     
 }
 
+@media (max-width: 1024px) {
+
+    .Contenedor_2 {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 200px)) ;
+    }
+}
+
 .caja {
-    margin: auto;
-    height: 330px;
+    height: 100%;
     border: 2px solid rgba(143, 240, 16, 0.842);
     box-shadow: 0px 0px 5px 2px rgb(97, 243, 97);
     border-radius:5px;
     padding: 5px;
     transition: all .55s ease;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .caja:hover {
